@@ -1,0 +1,27 @@
+{
+    "clustername":"Cluster 1",
+    "master":[
+        {   "id":1,
+            "ip":"172.28.6.1",
+            "hostname":"ap-km-infra-node01"
+        }
+       
+    ],
+    "worker":[
+        {
+            "id":1,
+            "ip":"172.28.6.2",
+            "hostname":"ap-km-infra-node02"
+        },
+        {
+            "id":2,
+            "ip":"172.28.6.3",
+            "hostname":"ap-km-infra-node03"
+        },
+        {
+            "id":3,
+            "ip":"172.28.6.4",
+            "hostname":"ap-km-infra-node04"
+        }
+    ]
+}
