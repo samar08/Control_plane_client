@@ -4,6 +4,7 @@ const useStyles=makeStyles((theme)=>({
         margin: '0px 10px',
         color:'#01a982',
     },
+    
     body:{
         marginTop:'1px'
     },
@@ -30,11 +31,29 @@ const useStyles=makeStyles((theme)=>({
         backgroundColor:'#01a982'
     },
     clusternamecontainer:{
-        width:'400px',
+        width:'100%',
         marginTop:'10px'
     },
     nodescontainer:{
         marginTop:'20px'
+    },
+    controlplaneinfo:{
+        marginTop:'8px',
+    },
+    clusterbtns:{
+     width:'155px'
+    },
+
+    footer:{
+        backgroundColor:'#FFFFFF',
+    position:'absolute',
+    bottom:'0',
+    marginBottom:'0',
+    width:'100%',
+    height:'80px',
+    },
+    copyright:{
+    width:'50%'
     }
 }));
 export default useStyles;
